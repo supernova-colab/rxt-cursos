@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="es"><head><meta name="rxt-ver" content="202611231615"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Academia RXT · Capacitación oficial del equipo Roxet Training Club: cursos para recepción y coaches con certificado.">
 <meta property="og:title" content="Academia RXT · Roxet Training Club">
 <meta property="og:description" content="Cursos de recepción y coach con certificado. No se trata de entrenar más. Se trata de entrenar mejor.">
@@ -370,4 +370,7 @@ function boot(){if(fromHash())return;show('vCover');try{const r=localStorage.get
 const sp=$('splash');setTimeout(()=>{boot();sp.classList.add('out');setTimeout(()=>sp.remove(),450)},1100);
 window.addEventListener('hashchange',fromHash);
 }
-</script></body></html>
+</script><script id="upd">(()=>{const cur=(document.querySelector('meta[name=rxt-ver]')||{}).content;
+const chk=()=>fetch(location.pathname+'?nc='+Date.now(),{cache:'no-store'}).then(r=>r.text()).then(t=>{const m=t.match(/name="rxt-ver" content="(\d+)"/);
+ if(m&&cur&&m[1]>cur){try{if(sessionStorage.getItem('rxtUpd')===m[1])return;sessionStorage.setItem('rxtUpd',m[1])}catch(e){}location.replace(location.pathname+'?v='+m[1]+location.hash)}}).catch(()=>{});
+chk();document.addEventListener('visibilitychange',()=>{if(!document.hidden)chk()});})();</script></body></html>
