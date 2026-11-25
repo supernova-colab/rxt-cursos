@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es"><head><meta name="rxt-ver" content="202611251734"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="es"><head><meta name="rxt-ver" content="202611251736"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Academia RXT · Capacitación oficial del equipo Roxet Training Club: cursos para recepción y coaches con certificado.">
 <meta property="og:title" content="Academia RXT · Roxet Training Club">
 <meta property="og:description" content="Cursos de recepción y coach con certificado. No se trata de entrenar más. Se trata de entrenar mejor.">
@@ -211,25 +211,24 @@ ol.pp li.miss{background:color-mix(in srgb,var(--red) 10%,transparent);animation
 /* ===== FX6/7: fondo lava RXT (negro, rojo y azul marino) ===== */
 :root{color-scheme:dark!important;--bg:#07070A;--card:rgba(20,20,23,.86);--ink:#F5F5F6;--soft:#a3a3a9;--line:#2a2a30}
 .lava{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none;background:#07070A}
-.lava i{position:absolute;border-radius:50%;filter:blur(80px);mix-blend-mode:screen;will-change:transform}
-.lava i:nth-child(1){width:60vmax;height:60vmax;left:-22vmax;top:-22vmax;background:radial-gradient(circle,#E3242F 0%,#7a0d14 55%,transparent 72%);opacity:.55;animation:lv1 26s ease-in-out infinite alternate}
-.lava i:nth-child(2){width:62vmax;height:62vmax;right:-26vmax;top:6vmax;background:radial-gradient(circle,#2F4E76 0%,#14284a 55%,transparent 72%);opacity:.75;animation:lv2 30s ease-in-out infinite alternate}
-.lava i:nth-child(3){width:50vmax;height:50vmax;left:-6vmax;bottom:-26vmax;background:radial-gradient(circle,#1e3a66 0%,#0d1a33 55%,transparent 72%);opacity:.7;animation:lv3 34s ease-in-out infinite alternate}
-.lava i:nth-child(4){width:34vmax;height:34vmax;right:-4vmax;bottom:-8vmax;background:radial-gradient(circle,#b3121c 0%,#4a070b 55%,transparent 72%);opacity:.5;animation:lv4 22s ease-in-out infinite alternate}
-@keyframes lv1{0%{transform:translate(0,0) scale(1)}50%{transform:translate(16vmax,12vmax) scale(1.12)}100%{transform:translate(6vmax,28vmax) scale(.92)}}
-@keyframes lv2{0%{transform:translate(0,0) scale(1)}50%{transform:translate(-18vmax,10vmax) scale(.92)}100%{transform:translate(-8vmax,-12vmax) scale(1.15)}}
-@keyframes lv3{0%{transform:translate(0,0) scale(1)}50%{transform:translate(16vmax,-14vmax) scale(1.15)}100%{transform:translate(-8vmax,-6vmax) scale(.95)}}
-@keyframes lv4{0%{transform:translate(0,0) scale(1)}100%{transform:translate(-24vmax,-28vmax) scale(1.25)}}
+.lava i{position:absolute;border-radius:50%;filter:blur(90px);mix-blend-mode:normal;will-change:transform}
+.lava i:nth-child(1){width:70vmax;height:70vmax;left:-38vmax;top:-40vmax;background:radial-gradient(circle,#B5121B 0%,#5c070c 50%,transparent 70%);opacity:.45;animation:lv1 28s ease-in-out infinite alternate}
+.lava i:nth-child(2){width:70vmax;height:70vmax;right:-40vmax;bottom:-40vmax;background:radial-gradient(circle,#1c3557 0%,#0e1d33 50%,transparent 70%);opacity:.8;animation:lv2 32s ease-in-out infinite alternate}
+.lava i:nth-child(3){width:46vmax;height:46vmax;left:-26vmax;bottom:-30vmax;background:radial-gradient(circle,#142742 0%,#0a1424 55%,transparent 72%);opacity:.6;animation:lv3 36s ease-in-out infinite alternate}
+.lava i:nth-child(4){display:none}
+@keyframes lv1{0%{transform:translate(0,0) scale(1)}100%{transform:translate(8vmax,6vmax) scale(1.08)}}
+@keyframes lv2{0%{transform:translate(0,0) scale(1)}100%{transform:translate(-8vmax,-6vmax) scale(1.1)}}
+@keyframes lv3{0%{transform:translate(0,0) scale(1)}100%{transform:translate(6vmax,-4vmax) scale(1.05)}}
 @media (prefers-reduced-motion:reduce){.lava i{animation:none}}
 body{background:transparent!important}
 main .card,.blk{backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
 
 /* ===== FX8: saludo personalizado ===== */
-.hello{position:relative;overflow:hidden;border-radius:26px;padding:20px 20px 18px;margin:0 0 18px;background:linear-gradient(135deg,rgba(227,36,47,.22),rgba(47,78,118,.35) 60%,rgba(20,20,23,.9));border:1px solid rgba(255,255,255,.12);box-shadow:0 20px 40px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.12);animation:vin .5s both}
+.hello{position:relative;overflow:hidden;border-radius:26px;padding:20px 20px 18px;margin:0 0 18px;background:linear-gradient(160deg,#1a1a1e,#111114);border:1px solid rgba(255,255,255,.12);box-shadow:0 20px 40px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.12);animation:vin .5s both}
 .hello::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.12) 50%,transparent 65%);background-size:250% 100%;animation:shine 4.5s ease-in-out infinite}
 @keyframes shine{0%{background-position:120% 0}60%,100%{background-position:-60% 0}}
 .hello .top{display:flex;align-items:center;gap:14px}
-.hello .av{flex:none;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;font:900 22px "Inter Tight",Inter,sans-serif;color:#fff;background:linear-gradient(135deg,#E3242F,#2F4E76);box-shadow:0 0 0 3px rgba(255,255,255,.15),0 10px 24px rgba(227,36,47,.35)}
+.hello .av{flex:none;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;font:900 22px "Inter Tight",Inter,sans-serif;color:#fff;background:#E3242F;box-shadow:0 0 0 3px rgba(255,255,255,.15),0 10px 24px rgba(227,36,47,.35)}
 .hello .g{font:600 14px Inter;color:#d6d3cf}.hello .nm2{font:900 26px/1.05 "Inter Tight",Inter,sans-serif;letter-spacing:-.02em;color:#fff}
 .hello .chip2{display:inline-flex;align-items:center;gap:6px;margin-top:6px;padding:4px 10px;border-radius:999px;background:rgba(255,255,255,.1);font:800 11px Inter;letter-spacing:.14em;color:#fff}
 .hello .chip2 b{color:#F6B73C}
@@ -241,7 +240,7 @@ main .card,.blk{backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
 
 /* ===== FX9: splash con X que se expande + header transparente ===== */
 #splash{background:#07070A!important;color:#bdbab3;overflow:hidden}
-#splash .glow{position:absolute;inset:-20%;background:radial-gradient(40% 35% at 30% 35%,rgba(227,36,47,.35),transparent 70%),radial-gradient(45% 40% at 70% 65%,rgba(47,78,118,.55),transparent 70%);filter:blur(30px);animation:gl 3s ease-in-out infinite alternate}
+#splash .glow{position:absolute;inset:-20%;background:radial-gradient(35% 30% at 15% 15%,rgba(181,18,27,.4),transparent 70%),radial-gradient(40% 35% at 85% 85%,rgba(28,53,87,.6),transparent 70%);filter:blur(30px);animation:gl 3s ease-in-out infinite alternate}
 @keyframes gl{to{transform:translate(4%,-3%) scale(1.08)}}
 #splash .lg{position:relative;display:flex;align-items:center;height:72px;animation:lgIn .6s cubic-bezier(.2,.8,.2,1) both}
 @keyframes lgIn{from{opacity:0;transform:scale(.85);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
@@ -250,7 +249,7 @@ main .card,.blk{backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
 #splash .xr{position:absolute;inset:0;opacity:0;transition:opacity .35s}
 #splash .r,#splash .t{transition:transform .5s cubic-bezier(.6,0,.3,1),opacity .4s}
 #splash .ld{position:relative;width:170px;height:4px;border-radius:4px;background:#1d1d22;overflow:hidden;transition:opacity .3s}
-#splash .ld i{display:block;height:100%;width:100%!important;background:linear-gradient(90deg,#2F4E76,#E3242F);border-radius:4px;transform-origin:left;animation:fill 1.25s cubic-bezier(.4,0,.2,1) both!important}
+#splash .ld i{display:block;height:100%;width:100%!important;background:#E3242F;border-radius:4px;transform-origin:left;animation:fill 1.25s cubic-bezier(.4,0,.2,1) both!important}
 @keyframes fill{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 #splash p{position:relative;transition:opacity .3s}
 #splash.go .r{transform:translateX(-90px);opacity:0}#splash.go .t{transform:translateX(90px);opacity:0}
