@@ -4,7 +4,7 @@ ID='ventas-barra'
 TITLE='Ventas en la barra'
 SHORT='Ventas barra'
 CODE='V'
-PUESTOS=['barista']
+PUESTOS=['rec']
 FULL='Curso de ventas en la Energy Bar'
 DESC='Venta sugerida, combos, leer el momento del cliente, metas del día y clientes frecuentes.'
 
@@ -123,7 +123,7 @@ B('Bloque 5','Metas del día y fidelización','Cómo llegar a la meta diaria y q
   'Inventar promociones para cerrar la venta.','Ofrecer solo los paquetes y beneficios vigentes.'),
  L('El cierre que hace volver','Cómo despides al cliente.',
   ['Entrega con una frase: “Aquí está tu suero, ¡buen entreno!”.',
-   'Usa su nombre.',
+   'Entrégalo diciendo su nombre: “Listo, Pablo”.',
    'Invítalo a probar algo la próxima: “Mañana prueba el shot antes de clase”.',
    'Barra limpia después de cada pedido.'],
   'Entregar sin voltear a ver al cliente.','Entregar por nombre, con buena actitud y una invitación.'),

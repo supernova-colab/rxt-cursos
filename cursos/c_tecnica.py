@@ -28,11 +28,11 @@ B('Bloque 1','Conceptos base de biomecánica','Columna neutra, brace y patrones 
    '<b>Patrones de movimiento:</b> todo ejercicio pertenece a un patrón; si conoces el patrón, conoces la técnica de sus variantes.'],
   'Cargar peso con la espalda redonda.','Columna neutra y brace antes de cada repetición.'),
  L('Los patrones de movimiento','Agrupa los ejercicios para enseñarlos mejor.',
-  ['<b>Dominante de rodilla:</b> sentadilla, steps, saltos a caja.',
+  ['<b>Rodilla manda:</b> sentadilla, steps y saltos a caja (la rodilla se dobla mucho).',
    '<b>Dominante de cadera (bisagra):</b> peso muerto, voltear llanta, SkiErg (en parte).',
    '<b>Empuje horizontal:</b> lagartijas, press de pecho. <b>Empuje vertical:</b> press militar.',
    '<b>Tracción horizontal:</b> remos y remadora. <b>Tracción vertical:</b> jalón al pecho.',
-   '<b>Aislamiento / acondicionamiento:</b> curl de bíceps, olas con cuerda.'],
+   '<b>Un solo músculo o condición:</b> curl de bíceps y olas con cuerda.'],
   'Enseñar cada ejercicio como algo totalmente nuevo.','Enseñar por patrón: lo aprendido se transfiere a las variantes.'),
 ]),
 

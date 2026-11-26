@@ -43,7 +43,7 @@ B('Bloque 2','Cuándo comer, hidratación y estrategias','Antes, durante y despu
  ['Timing'],[
  L('Antes, durante y después','Lo práctico para cada momento.',
   ['<b>1–2 h antes:</b> carbohidrato complejo + proteína magra (avena + proteína, arroz + pollo).',
-   '<b>Durante (más de 60–70 min):</b> hidratos simples + electrolitos.',
+   '<b>Si la sesión pasa de una hora:</b> algo de azúcar rápida y sales (electrolitos).',
    '<b>Después:</b> proteína + carbohidrato (batido + plátano, arroz + carne magra).',
    'Clase de 6 am: algo ligero (fruta, café) si le cae bien; lo importante es comer bien en el día.'],
   'Entrenar intenso sin haber comido nada en todo el día.','Comer algo adecuado antes y recuperar después.'),
@@ -97,7 +97,7 @@ B('Bloque 4','Evidencia limitada y suplementos sobrevalorados','Cómo no vender 
    '<b>Tribulus terrestris:</b> no aumenta la testosterona.',
    '<b>CLA:</b> efectos mínimos en composición corporal.',
    '<b>Quemadores de grasa:</b> efecto placebo o solo por la cafeína.',
-   '“Un atleta inteligente no colecciona botes, colecciona resultados.”'],
+   'Primero comida real, sueño y entrenamiento; los botes al final.'],
   'Recomendar quemadores para bajar de peso.','Recomendar hábitos: proteína, sueño, entrenamiento y constancia.'),
  L('Reglas del coach con suplementos','Lo que nunca se olvida.',
   ['El coach orienta, no receta.',

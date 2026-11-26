@@ -97,7 +97,7 @@ B('Bloque 3','Qué corregir primero','La prioridad de las correcciones y cómo e
 
 B('Bloque 4','Tipos de cues','Verbal externo, visual, táctil y ayudas físicas.',
  ['Cues'],[
- L('Cue verbal externo','Frases que apuntan a un resultado, no a un músculo.',
+ L('Cue verbal externo','Di qué tiene que pasar (“empuja el piso”), no qué músculo usar.',
   ['<b>Externo:</b> “Empuja el piso”, “dobla la barra”, “aterriza como ninja”.',
    '<b>Interno:</b> “activa el cuádriceps”, “contrae el glúteo”.',
    'En la mayoría de los clientes los cues <b>externos</b> funcionan mejor para movimientos completos.',
